@@ -1,0 +1,15 @@
+
+body::before{
+    display: block;
+    height: 60px;
+    content: '';
+}
+.mx-1{
+    text-align: left;
+}
+/*lets make the input field in newsletter 50% on medium and full screen*/
+@media(min-width: 768px) {
+    .news-input{
+        width:50%;
+    }
+}
